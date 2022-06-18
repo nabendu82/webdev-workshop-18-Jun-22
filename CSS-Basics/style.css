@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inter:wght@100&display=swap');
+
+
+
+
+.categories{
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.categories ul{
+    padding: 0%;
+    list-style: none;
+}
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+.categories a:hover{
+    color: red;
+}
+.categories li{
+    border-bottom: 1px dotted black;
+    margin-bottom: 15px;
+}
+
+.form-group{
+    padding: 20px;
+}
+
+.form-group .my-form{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    opacity: 0.5;
+    text-align: center;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
